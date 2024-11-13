@@ -1,1 +1,3 @@
 # projectObjetosInteligentes
+i) Breve descrição do funcionamento e do uso
+Este projeto implementa um sistema de iluminação inteligente em ambientes industriais para otimizar o uso de energia com controle automático de lâmpadas. Usando o microcontrolador ESP32, o sistema lê a intensidade de luz ambiente com um sensor de luminosidade (LM393) e ajusta a intensidade das lâmpadas, reduzindo o consumo elétrico. O ESP32 controla as lâmpadas através de um relé (MC-8A) e envia dados de economia de energia para um servidor via protocolo MQTT para monitoramento remoto, com possibilidade de controle pela plataforma MQTT (Cedalo). Para reproduzir este projeto, é necessário configurar a IDE do Arduino para o ESP32 e um broker MQTT para comunicação e monitoramento dos dados.
